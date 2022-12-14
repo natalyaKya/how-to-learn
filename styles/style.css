@@ -9,18 +9,15 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
+
+/* Блок header */
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   position: relative;
-
-  /* выше установили ограничения для секции */
-}
-
-/* Блок header */
-
-.header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -220,7 +217,7 @@
 
 .kaufman {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
   background-color: #1f1f1f;
   padding: 90px;
   z-index: 0;
